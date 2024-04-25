@@ -11,8 +11,9 @@
     <p><input placeholder="ширина" name="b"></p>
     <p><button formaction="/calculate">=</button></p>
 </form>
-<p> <input placeholder="периметр" span th:text="${result}" /></p>
-<p> <input placeholder="площадь" span th:text="${ploshyad}" /></p>
+<p> периметр = <span th:text="${result}" /></p>
+<p> площадь = <span th:text="${ploshyad}" /></p>
+<p> Прямоугольник = <span th:text="${rect}" /></p>
 <p> <span th:text="${errorMsg}" /></p>
 </body>
 </html>
